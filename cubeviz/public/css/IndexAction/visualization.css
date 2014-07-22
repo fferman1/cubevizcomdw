@@ -1,0 +1,131 @@
+#cubeviz-index-visualization
+{
+    clear: both;
+    margin-bottom: 35px;
+}
+
+#cubeviz-visualization-nothingFoundNotification
+{
+    padding-top: 100px;
+}
+
+#cubeviz-visualization-notificationHightchartsException10
+{
+    padding-top: 100px; 
+    text-align: left;
+    width: 50%;
+}
+
+.minimizado
+{
+    display:none;
+}
+.espacamentoLabel{
+	font-style:italic;
+/*	cursor:pointer;*/
+}
+.suprimido
+{
+
+}
+.nao_suprimido
+{
+
+}
+/* controla label */
+div:first-child .nao_suprimido{
+/*	color:red;*/
+}
+/* controla label */
+div:first-child .suprimido{
+}
+/* controla radios */
+.suprimido + #htmlAgregado{
+}
+/* controla radios */
+.nao_suprimido + #htmlAgregado{
+	display: none;
+}
+.nao_suprimido #imagemComprimido{
+	display:none;
+}
+.suprimido #imagemComprimido{
+	margin-left:-15px;
+	margin-right:10px;
+}
+.nao_suprimido #imagemDescomprimido{
+	margin-left:-15px;
+	margin-right:10px;
+}
+.suprimido #imagemDescomprimido{
+	display:none;
+}
+.verde{
+	width:10px;
+	height:10px;
+	background-color: green;
+	cursor:pointer;
+}
+.vermelho{
+	width:10px;
+	height:10px;
+	background-color: red;
+	cursor:pointer;
+}
+
+.cm-barra-verde{
+	padding-right: 1.5em !important;
+	border-radius: 3px 3px 0px 0px;
+	padding: 0.5em 0.5em 0.4em !important;
+	background-color: rgb(136, 136, 136);
+	background-image: -moz-linear-gradient(center top , rgba(30, 255, 30, 0.25), rgba(0, 0, 0, 0.25));
+	font-size: 1em;
+	font-weight: 900;
+	color: rgb(255, 255, 255);
+	border-bottom: 1px solid rgb(102, 102, 102);
+	margin: 0px !important;
+	line-height: 1;
+	font-family: inherit;
+	text-rendering: optimizelegibility;
+}
+.cm-barra-vermelha{
+	padding-right: 1.5em !important;
+	border-radius: 3px 3px 0px 0px;
+	padding: 0.5em 0.5em 0.4em !important;
+	background-color: rgb(136, 136, 136);
+	background-image: -moz-linear-gradient(center top , rgba(255, 30, 30, 0.25), rgba(0, 0, 0, 0.25));
+	font-size: 1em;
+	font-weight: 900;
+	color: rgb(255, 255, 255);
+	border-bottom: 1px solid rgb(102, 102, 102);
+	margin: 0px !important;
+	line-height: 1;
+	font-family: inherit;
+	text-rendering: optimizelegibility;
+}
+.cm-verde{
+	width:10px;
+	height:10px;
+	background-color:green;
+	float:left;
+	border:3px solid rgb(80,80,80);
+	margin-right:5px;
+	cursor:pointer;
+	border-radius: 4px 4px 4px 4px;
+}
+.cm-vermelho{
+	width:10px;
+	height:10px;
+	background-color:red;
+	float:left;
+	border:3px solid rgb(80,80,80);
+	margin-right:5px;
+	cursor:pointer;
+	border-radius: 4px 4px 4px 4px;
+}
+.cm-esconder{
+	display: none;
+}
+.cm-agregacao-escondido{
+	visibility:hidden;
+}

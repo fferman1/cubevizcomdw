@@ -1,0 +1,8 @@
+class View_IndexAction_Test
+{
+	public novosElementos:any;
+	public propriedadeValor:any;
+	public base:any;
+	public numObs:any;
+	public idDimensao:any;
+}
